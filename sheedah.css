@@ -44,6 +44,7 @@ body{
     }
     body{
     display: flex;
+    flex-direction: column;
    }
     .searchBar{
      display: flex;
@@ -280,13 +281,27 @@ h2{
         margin: 5px;
     }
 }
-footer{
+.footer{
     margin-top: 20px;
     padding: 10px 0px;
     border-top: 1px solid #333;
-    text-align: center;
-    color: #333;
     background-color: chocolate;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer footer{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+}
+.social-icon{
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+    cursor: pointer;
+    text-align: right;
+
 }
 
 
